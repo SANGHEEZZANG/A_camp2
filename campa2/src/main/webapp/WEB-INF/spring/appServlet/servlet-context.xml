@@ -38,6 +38,14 @@
 		<beans:property name="maxUploadSize" value="10000000"/>	
 	</beans:bean>	
 	
+	<!-- 부트스트랩 매핑  -->
+	<resources mapping="/css/**" location="/resouces/css/" />
+	<resources mapping="/img/**" location="/resouces/img/" />
+	<resources mapping="/js/**" location="/resouces/js/" />
+	<resources mapping="/vendor/**" location="/resouces/vendor/" />
+	<resources mapping="/resouces/**" location="/resouces/" />
+	
+	
 	<context:component-scan base-package="campa" />
 	
 	
