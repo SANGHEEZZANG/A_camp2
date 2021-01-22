@@ -6,6 +6,7 @@
 
 	<typeAliases>
 		<!-- <typeAlias alias="board" type="myspring.model.Board" /> -->
+		<typeAlias type="campa.model.memberDTO" alias="mem"/>
 	</typeAliases>	
 	
 </configuration>
